@@ -21,6 +21,10 @@
         color: rgba(255, 255, 255, 1);
     }
 
+    .text-secondary {
+        color: rgba(0, 255, 136, 1);
+    }
+
     .btn-gradient {
         border-radius: 10000px;
         background: linear-gradient(47.64deg,
