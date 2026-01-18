@@ -17,6 +17,14 @@
         background-color: rgba(26, 11, 46, 1);
     }
 
+    .bg-secondary {
+        background-color: rgba(35, 14, 61, 1);
+    }
+
+    .bg-card {
+        background-color: rgba(53, 17, 101, 0.4);
+    }
+
     .text-primary {
         color: rgba(255, 255, 255, 1);
     }
