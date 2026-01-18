@@ -7,4 +7,25 @@
     .font-inter {
         font-family: "Inter", sans-serif;
     }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .bg-primary {
+        background-color: rgba(26, 11, 46, 1);
+    }
+
+    .text-primary {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .btn-gradient {
+        border-radius: 10000px;
+        background: linear-gradient(47.64deg,
+                rgba(247, 233, 63, 1) 16.531%,
+                rgba(251, 9, 180, 1) 49.819%,
+                rgba(145, 0, 248, 1) 81.648%);
+    }
 }
