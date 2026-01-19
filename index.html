@@ -24,19 +24,20 @@
             </div>
             <ul class="hidden sm:flex gap-8 text-primary">
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Episodes</a>
+                    <a href="#episodes">Episodes</a>
                 </li>
                 <li>
-                    <a href="#">Host</a>
+                    <a href="#host">Host</a>
                 </li>
             </ul>
 
             <button
-                class="btn-gradient cursor-pointer text-primary py-3 px-4 rounded-[10000px] font-semibold hidden sm:block">
-                Subscribe <i class="fa-solid fa-arrow-right"></i>
+                class="btn-gradient cursor-pointer text-primary py-3 px-4 rounded-[10000px] font-semibold hidden sm:block group">
+                Subscribe <i
+                    class="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
             </button>
 
             <button class="sm:hidden text-primary cursor-pointer">
@@ -47,7 +48,7 @@
 
     <main>
         <!-- about section -->
-        <section class="bg-primary">
+        <section id="about" class="bg-primary">
             <div class="container px-5 py-10 md:pt-14 md:pb-32">
                 <div class="text-center">
                     <h1 class="text-3xl md:text-5xl text-primary font-bold">About the Podcast</h1>
@@ -127,7 +128,7 @@
         </section>
 
         <!-- episodes section -->
-        <section class="bg-primary">
+        <section id="episodes" class="bg-primary">
             <div class="container px-5 py-10 md:py-32 md:px-5 lg:px-2">
                 <h1 class="text-3xl md:text-5xl text-primary font-bold text-center">Featured Episodes</h1>
                 <div class="mt-6 md:mt-10 grid gap-4 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -190,7 +191,7 @@
         </section>
 
         <!-- meet the host section -->
-        <section class="bg-primary">
+        <section id="host" class="bg-primary">
             <div class="container px-5 py-16 md:pt-16 pb-32 md:px-5 lg:px-2">
                 <h1 class="text-3xl md:text-5xl text-primary font-bold text-center">Meet the Host</h1>
                 <div
@@ -205,20 +206,24 @@
                             to grow in tech.</p>
                         <div class="flex gap-2 justify-center md:justify-start">
                             <div
-                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer">
-                                <img src="./assets/linkedin.png" alt="linkedin">
+                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer group">
+                                <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                                    src="./assets/linkedin.png" alt="linkedin">
                             </div>
                             <div
-                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer">
-                                <img src="./assets/x.png" alt="x">
+                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer group">
+                                <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                                    src="./assets/x.png" alt="x">
                             </div>
                             <div
-                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer">
-                                <img src="./assets/instagram.png" alt="instagram">
+                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer group">
+                                <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                                    src="./assets/instagram.png" alt="instagram">
                             </div>
                             <div
-                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer">
-                                <img src="./assets/youtube.png" alt="youtube">
+                                class="border border-[rgba(83,60,114,1)] h-10 w-10 rounded-full flex justify-center items-center cursor-pointer group">
+                                <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                                    src="./assets/youtube.png" alt="youtube">
                             </div>
                         </div>
                     </div>
@@ -234,20 +239,24 @@
                 <img class="cursor-pointer w-[137px] sm:w-[219px]" src="./assets/TechWave.png" alt="TechWave">
 
                 <div class="grid grid-cols-2 justify-items-center-safe md:grid-cols-4 gap-5 md:gap-7 mt-3 px-2">
-                    <p class="flex justify-center items-center gap-2">
-                        <img src="assets/spotify.png" alt="">
+                    <p class="flex justify-center items-center gap-2 cursor-pointer group">
+                        <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                            src="assets/spotify.png" alt="">
                         Spotify
                     </p>
-                    <p class="flex justify-center items-center gap-2">
-                        <img src="assets/apple-podcast.png" alt="">
+                    <p class="flex justify-center items-center gap-2 cursor-pointer group">
+                        <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                            src="assets/apple-podcast.png" alt="">
                         Apple Podcasts
                     </p>
-                    <P class="flex justify-center items-center gap-2">
-                        <img src="assets/youtube-podcast.png" alt="">
+                    <P class="flex justify-center items-center gap-2 cursor-pointer group">
+                        <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                            src="assets/youtube-podcast.png" alt="">
                         YouTube
                     </P>
-                    <P class="flex justify-center items-center gap-2">
-                        <img src="assets/twitter.png" alt="">
+                    <P class="flex justify-center items-center gap-2 cursor-pointer group">
+                        <img class="transition-transform duration-300 group-hover:-translate-y-1"
+                            src="assets/twitter.png" alt="">
                         Twitter
                     </P>
                 </div>
