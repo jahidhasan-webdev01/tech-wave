@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head class="scroll-smooth">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Tailwind CSS CDN -->
@@ -18,33 +18,35 @@
 <body class="font-inter">
     <header class="bg-primary">
         <!-- navigation bar -->
-        <nav class="container h-6 sm:h-8 md:h-14  flex justify-between items-center px-5 sm:px-2 py-10">
-            <div>
-                <img class="cursor-pointer w-[137px] sm:[w-160px] md:w-[219px]" src="./assets/TechWave.png"
-                    alt="TechWave">
-            </div>
-            <ul class="hidden sm:flex gap-8 text-primary">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#episodes">Episodes</a>
-                </li>
-                <li>
-                    <a href="#host">Host</a>
-                </li>
-            </ul>
+        <div class="border-b-4 border-[#4b047e5e]">
+            <nav class="container h-6 sm:h-8 md:h-14  flex justify-between items-center px-5 sm:px-2 py-10">
+                <div>
+                    <img class="cursor-pointer w-[137px] sm:[w-160px] md:w-[219px]" src="./assets/TechWave.png"
+                        alt="TechWave">
+                </div>
+                <ul class="hidden sm:flex gap-8 text-primary">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#episodes">Episodes</a>
+                    </li>
+                    <li>
+                        <a href="#host">Host</a>
+                    </li>
+                </ul>
 
-            <button
-                class="btn-gradient text-primary py-2 md:py-3 px-5 rounded-full cursor-pointer font-semibold hidden sm:block group">
-                Subscribe <i
-                    class="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
-            </button>
+                <button
+                    class="btn-gradient text-primary py-2 md:py-3 px-5 rounded-full cursor-pointer font-semibold hidden sm:block group">
+                    Subscribe <i
+                        class="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                </button>
 
-            <button class="sm:hidden text-primary cursor-pointer">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
+                <button class="sm:hidden text-primary cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </div>
         <!-- banner section -->
         <section
             class="relative flex items-center justify-center bg-[url('./assets/hero-bg.png')] min-h-[466px] md:min-h-[760px] w-full bg-cover bg-center"
@@ -67,11 +69,11 @@
                     <div class="mt-6 flex flex-row gap-2 justify-center">
                         <button
                             class="flex gap-1 items-center btn-gradient font-semibold text-primary py-3 px-5 rounded-full cursor-pointer">
-                            <i class="fa-brands fa-spotify"></i>
+                            <i class="fa-brands fa-spotify spin-slow"></i>
                             Listen on Spotify
                         </button>
                         <button
-                            class="flex gap-1 items-center font-semibold text-secondary py-3 px-5 border rounded-full cursor-pointer">
+                            class="flex gap-1 items-center font-semibold text-secondary hover:text-black hover:bg-[rgba(0,255,136,1)] py-3 px-5 border rounded-full cursor-pointer">
                             <i class="fa-regular fa-envelope"></i>
                             Subscribe
                         </button>
@@ -94,27 +96,27 @@
                         actually
                         work,
                         and share stories of personal growth from industry leaders.
-
+                        <br><br>
                         Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
                     </p>
                 </div>
                 <hr class="text-primary opacity-10 my-10 md:my-20">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-10 justify-items-center">
-                    <div>
+                    <div class="text-center">
                         <h1 class="text-4xl md:text-5xl font-black text-secondary">150K+</h1>
                         <p class="text-primary opacity-80 mt-4">Monthly Listeners</p>
                     </div>
-                    <div>
-                        <h1 class="text-4xl md:text-5xl font-black text-secondary">150K+</h1>
-                        <p class="text-primary opacity-80 mt-4">Monthly Listeners</p>
+                    <div class="text-center">
+                        <h1 class="text-4xl md:text-5xl font-black text-secondary">200+</h1>
+                        <p class="text-primary opacity-80 mt-4">Episodes Published</p>
                     </div>
-                    <div>
-                        <h1 class="text-4xl md:text-5xl font-black text-secondary">150K+</h1>
-                        <p class="text-primary opacity-80 mt-4">Monthly Listeners</p>
+                    <div class="text-center">
+                        <h1 class="text-4xl md:text-5xl font-black text-secondary">4.9★</h1>
+                        <p class="text-primary opacity-80 mt-4">Average Rating</p>
                     </div>
-                    <div>
-                        <h1 class="text-4xl md:text-5xl font-black text-secondary">150K+</h1>
-                        <p class="text-primary opacity-80 mt-4">Monthly Listeners</p>
+                    <div class="text-center">
+                        <h1 class="text-4xl md:text-5xl font-black text-secondary">50+</h1>
+                        <p class="text-primary opacity-80 mt-4">Industry Experts</p>
                     </div>
                 </div>
 
@@ -125,8 +127,8 @@
             <div class="container px-5 py-10 md:py-32 md:px-5 lg:px-2">
                 <h1 class="text-3xl md:text-5xl text-primary font-bold text-center">Why Choose TechWave</h1>
                 <div class="mt-4 md:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-primary">
-                    <div class="lg:row-span-2 bg-card border-0 rounded-[40px] p-10">
-                        <img src="./assets/headphone.png" alt="headphone">
+                    <div class="lg:row-span-2 bg-card border-0 rounded-[40px] p-10 flex flex-col justify-center">
+                        <img class="w-fit" src="./assets/headphone.png" alt="headphone">
                         <h4 class="mt-4 text-xl md:text-2xl font-bold">Premium Audio Quality</h4>
                         <p class="mt-4 opacity-60">Experience crystal-clear sound with professional-grade recording
                             equipment and
@@ -267,10 +269,11 @@
         </section>
     </main>
     <!-- footer section -->
-    <footer class="w-full h-full object-cover">
-        <section class="bg-[url('./assets/footer-bg.png')] min-h-[50vh] bg-center bg-cover max-w-full">
+    <footer class="w-full min-h-[248px] lg:min-h-[412px] object-cover">
+        <section
+            class="bg-[url('./assets/footer-bg.png')] min-h-[248px] lg:min-h-[412px] bg-center bg-cover max-w-full">
             <div
-                class="text-primary opacity-60 flex flex-col justify-center items-center min-h-[50vh] space-y-6 md:space-y-8">
+                class="text-primary opacity-60 flex flex-col justify-center items-center min-h-[248px] lg:min-h-[412px] space-y-6 md:space-y-8">
                 <img class="cursor-pointer w-[137px] sm:w-[219px]" src="./assets/TechWave.png" alt="TechWave">
 
                 <div class="grid grid-cols-2 justify-items-center-safe md:grid-cols-4 gap-5 md:gap-7 mt-3 px-2">
