@@ -18,9 +18,10 @@
 <body class="font-inter">
     <header class="bg-primary">
         <!-- navigation bar -->
-        <nav class="container h-14 flex justify-between items-center px-5 sm:px-2 py-10">
+        <nav class="container h-6 sm:h-8 md:h-14  flex justify-between items-center px-5 sm:px-2 py-10">
             <div>
-                <img class="cursor-pointer w-[137px] sm:w-[219px]" src="./assets/TechWave.png" alt="TechWave">
+                <img class="cursor-pointer w-[137px] sm:[w-160px] md:w-[219px]" src="./assets/TechWave.png"
+                    alt="TechWave">
             </div>
             <ul class="hidden sm:flex gap-8 text-primary">
                 <li>
@@ -35,7 +36,7 @@
             </ul>
 
             <button
-                class="btn-gradient text-primary py-3 px-5 rounded-full cursor-pointer font-semibold hidden sm:block group">
+                class="btn-gradient text-primary py-2 md:py-3 px-5 rounded-full cursor-pointer font-semibold hidden sm:block group">
                 Subscribe <i
                     class="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
             </button>
@@ -46,13 +47,21 @@
         </nav>
         <!-- banner section -->
         <section
-            class="relative flex items-center justify-center bg-[url('./assets/hero-bg.png')] min-h-[760px] w-full bg-cover bg-center"
+            class="relative flex items-center justify-center bg-[url('./assets/hero-bg.png')] min-h-[466px] md:min-h-[760px] w-full bg-cover bg-center"
             id="hero">
 
-            <div class="flex flex-col justify-center items-center gap-y-30">
-                <img class="" src="./assets/microphone.png" alt="microphone">
+            <div class="flex flex-col justify-center items-center gap-y-6 md:gap-y-10 px-4">
+                <div
+                    class="w-[200px] h-[200px] md:w-[350px] md:h-[350px] bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-contain flex items-center justify-center p-18 md:p-20 relative">
+                    <img src="./assets/microphone.png" alt="microphone">
+
+                    <p
+                        class="absolute top-0 -right-2 md:top-5 md:right-5 md:text-[18px] uppercase font-semibold py-2 px-4 rounded-full bg-[rgba(0,255,136,1)] shadow-[0px_3px_27px_0px_rgba(0,255,136,0.5)]">
+                        New
+                    </p>
+                </div>
                 <div class="text-center">
-                    <h1 class="text-primary text-6xl font-extrabold mb-2">TechWave</h1>
+                    <h1 class="text-primary text-4xl md:text-6xl font-extrabold mb-2">TechWave</h1>
                     <p class="text-primary opacity-80">Your daily dose of tech insights, productivity hacks, and
                         personal growth</p>
                     <div class="mt-6 flex flex-row gap-2 justify-center">
